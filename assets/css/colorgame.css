@@ -1,0 +1,110 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Avenir", "Montserrat";
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+   	transition: 0.2s ease-in;
+   	border-radius: 10%;
+}
+
+#container {
+	margin: 30px auto 0;
+	max-width: 600px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#guess {
+	font-size: 2.5em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+  transition: 0.2s ease-in;
+  background-color: #79a9f7;
+}
+
+#nav {
+	margin-top: 0;
+	padding-top: 0;
+	background: white;
+	max-width: 100%;
+	clear: left;
+}
+
+#nav p {
+	margin: 0 auto;
+	position: relative;
+	max-width: 580px;
+}
+
+#reset {
+	position: relative;
+}
+
+button {
+	position: absolute;
+	right: 0;
+}
+
+#easy {
+	position: absolute;
+	right: 50px;
+}
+
+#display {
+	position: relative;
+	left: 27%;
+}
+
+button {
+	background-color: white;
+	font-family: sans-serif;
+	border: none;
+	padding: 10px 5px;
+	font-size: 1em;
+	outline: none;
+	transition: 0.2s ease-in;
+}
+
+button:hover {
+	background-color: #79a9f7;
+}
+
+.selected {
+	background-color: #79a9f7;
+}
+
+@media only screen and (max-width: 520px) {
+	h1 {
+		font-size: 1em;
+	}
+
+	#guess {
+		font-size: 2em;
+	}
+
+	button {
+		font-size: 0.8em;
+	}
+}
